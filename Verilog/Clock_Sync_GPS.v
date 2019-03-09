@@ -21,8 +21,8 @@ module Clock_Sync_GPS #(
     parameter SYS_CLK_FREQ = 25_000_000	// Frequency of input clock (used in calculations)
 	)(
     input 	SYS_CLK		,	// SYS_CLK, sample rate
-    input 	PPS			, 	// PPS
-	input 	RESET		,	// Global reset
+    input 	PPS		, 	// PPS
+    input 	RESET		,	// Global reset
     output 	CLK_OUT			// CLK_OUT
     );
 
